@@ -30,9 +30,9 @@ int main() {
     scanf( "%d", &input ) ;
 
     if ( ( input % 4 == 0 && input % 100 != 0) || (input % 400 == 0 ) ) {
-        printf( "February has 28 days" ) ;
-    } else {
         printf( "February has 29 days" ) ;
+    } else {
+        printf( "February has 28 days" ) ;
     }
 
     return 0 ;
